@@ -1,0 +1,476 @@
+Started by user [8mha:////4PI3P7jEYG1w5XO0FjUgIqTckpmWk9WVoXb0YfEpPJtgAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL95Jz80hQALbrOl8AAAAA=[0mcloud
+Obtained Jenkinsfile from git https://github.com/2025ht66008/aceest-fitness-gym.git
+[8mha:////4Cw1xHt/5Ip3KdC3g+8mPanpFNjZNEd2uoYNXW3vBBp4AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IjI66rVO510C2E4vX7YZ3tybKxDGsBF9Xshf8XuQoeGAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4L4FatihY05HoAzYWHJ7BD+IzkYSa9IaaxOvsxkcpyZlAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/aceest-fitness-build
+[8mha:////4N4Uf7upLolw9y7FqKRjH70EplsY41wDMDvO4SSccZUBAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4CDLkDbrKVYs0On8Yj28LmfLTpn1pt2UrPqvpT0sstBfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4F36vyO51Ed/ta9Ar+vQm94ip8sosh/cDA441IPLqFKZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4CMGsD5+fPrflCazho+qYHXysAgGU1qubHNYQi3+qbGgAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/aceest-fitness-build/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/2025ht66008/aceest-fitness-gym.git # timeout=10
+Fetching upstream changes from https://github.com/2025ht66008/aceest-fitness-gym.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.5'
+ > git fetch --tags --force --progress -- https://github.com/2025ht66008/aceest-fitness-gym.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 813fddef3099abadfacd210f132d52ce7ceb3c1e (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 813fddef3099abadfacd210f132d52ce7ceb3c1e # timeout=10
+Commit message: "Merge pull request #4 from 2025ht66008/ci/github-actions"
+ > git rev-list --no-walk 813fddef3099abadfacd210f132d52ce7ceb3c1e # timeout=10
+[8mha:////4HgJm1DuTuCccXQaiuAXxrpqnoHugwfFJLTa+nm7faa3AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4CJQDM2PrIZ26sAJNMLDLhWA+2ug2aSahL7VVWFN5VuVAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4FxjC03sWSKhJZTSuRfmFqtQI4fe2+6kjMx5t/JDBZh2AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4DNKZBqSVgc5k9DYa61UKXmYWh+rxLWrttkAZ7DuIgtsAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4IZTf5ob3PfKLspvAoI0lPTaWzrzAIfz3ksR1oLMvXQ4AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withEnv
+[8mha:////4MUPKu8Xukj3TOew5n3fBIGqvWvgjwR799Y0WZBAKSiyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4JjqWKRDCFLS+h+HDu5QoikmSk7IGGLoSXoMf2nV7iGpAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] timestamps
+[8mha:////4Cgzlg/YZkpuhwfpgOfBsgWITkFELyxVEjiOhhYGm/w0AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4Bp4jUaUKSSidugv+Hyyttx79wIx4ppg3McxpJQh8yLgAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] timeout
+[2026-10-06T13:47:33.003Z] Timeout set to expire in 20 min
+[8mha:////4PbdHlWxRX5yiTSn1xf5uxUaucjdca/YA6DfzN/1xuZeAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] {
+[8mha:////4BbifjJ7+DKmOiIraK7Sc95TuK0VFIlTVNpA3zSlG5/5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] stage
+[8mha:////4F5793bGrnsTHRJBYioAjaeFSpBqPi4WRqndh4hTkXagAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (Checkout)
+[8mha:////4EOfZ+/gTiuO7oc5MxXGG4WtkTpqyaXeKH9mI+/jvtdDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] echo
+[2026-10-06T13:47:33.328Z] Pulling the latest code from GitHub...
+[8mha:////4Hqdipp3xD2MOLlsK+zFnRFhWJhlG5Ools5Yvpbab3ygAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] checkout
+[2026-10-06T13:47:33.376Z] Selected Git installation does not exist. Using Default
+[2026-10-06T13:47:33.376Z] The recommended git tool is: NONE
+[2026-10-06T13:47:33.376Z] No credentials specified
+[2026-10-06T13:47:33.377Z]  > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/aceest-fitness-build/.git # timeout=10
+[2026-10-06T13:47:33.409Z] Fetching changes from the remote Git repository
+[2026-10-06T13:47:33.417Z]  > git config remote.origin.url https://github.com/2025ht66008/aceest-fitness-gym.git # timeout=10
+[2026-10-06T13:47:33.455Z] Fetching upstream changes from https://github.com/2025ht66008/aceest-fitness-gym.git
+[2026-10-06T13:47:33.455Z]  > git --version # timeout=10
+[2026-10-06T13:47:33.477Z]  > git --version # 'git version 2.43.5'
+[2026-10-06T13:47:33.477Z]  > git fetch --tags --force --progress -- https://github.com/2025ht66008/aceest-fitness-gym.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2026-10-06T13:47:34.208Z]  > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+[2026-10-06T13:47:34.240Z] Checking out Revision 813fddef3099abadfacd210f132d52ce7ceb3c1e (refs/remotes/origin/main)
+[2026-10-06T13:47:34.240Z]  > git config core.sparsecheckout # timeout=10
+[2026-10-06T13:47:34.326Z]  > git checkout -f 813fddef3099abadfacd210f132d52ce7ceb3c1e # timeout=10
+[2026-10-06T13:47:34.366Z] Commit message: "Merge pull request #4 from 2025ht66008/ci/github-actions"
+[8mha:////4F1/Vd75a4gw3mDgyJyMs73M3a++Cd/3TILF9Mi0q9kSAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUdEOIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpS7fbam+TyrN7f3gRDCAAAA[0m[Pipeline] script
+[8mha:////4AFa9wJOJXga7Y/OIJhLDQgoYsIdfrjLuJxF16+DEosrAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4GcM/da3ESAKpH+TPTjWWLOcGvnU82KxhJ0fKcuxdS8SAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] sh
+[2026-10-06T13:47:35.047Z] + git rev-parse --short HEAD
+[8mha:////4Mof+jciHGJ9TWj7KGtUXV/qafafE19t/pBfQwlURvkFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+[8mha:////4FMY9zxFtoJAWzhgsUGdqoRmCK4HIwhM2hUgWm5NFWXYAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // script
+[8mha:////4CVauETO96iucAF0gCy0Ota60ujCN7ysSpQY1eBUgXbfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaBBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk95Nrthw/eBrV5vgAAAA==[0m[Pipeline] echo
+[2026-10-06T13:47:35.266Z] Building commit 813fdde
+[8mha:////4AdbNpbH7K2pldXM+adSAkWIKqQEzOwiVlraZo4FNRADAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqEAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AHth42yvgAAAA==[0m[Pipeline] }
+[8mha:////4F3js6KwF1Fwn5Pj79rFpMAYMQxv4YBOamnyN1InqINjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqEAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdIdd2/wHeZNYOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Iq9x+PI/ZDCMyimGnnpaHL0a37dCgR26xLEoPXtI0RqAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxMCAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0OdkipwgAAAA==[0m[Pipeline] stage
+[8mha:////4OUiYZzont4vO/qcNQHa9dXd3miCzPjAJLnR1EDRhwbfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] { (Clean Build Environment)
+[8mha:////4FhhW3bWb6FuKY6Q8AGUxKEfN+cMJbLLwC3a3SwaozioAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfettHKdL4AAAA=[0m[Pipeline] echo
+[2026-10-06T13:47:35.620Z] Creating a fresh virtual environment...
+[8mha:////4FotAnxBJ5Orjz1q9nPOiycTIVqvNqH9h119+TDpKdlOAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIilBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f9+DRbb4AAAA=[0m[Pipeline] sh
+[2026-10-06T13:47:35.958Z] + rm -rf venv
+[2026-10-06T13:47:35.959Z] + python3 -m venv venv
+[2026-10-06T13:47:45.858Z] + . venv/bin/activate
+[2026-10-06T13:47:45.858Z] ++ deactivate nondestructive
+[2026-10-06T13:47:45.858Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:45.858Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:45.859Z] ++ '[' -n /usr/bin/sh -o -n '' ']'
+[2026-10-06T13:47:45.859Z] ++ hash -r
+[2026-10-06T13:47:45.859Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:45.859Z] ++ unset VIRTUAL_ENV
+[2026-10-06T13:47:45.859Z] ++ '[' '!' nondestructive = nondestructive ']'
+[2026-10-06T13:47:45.859Z] ++ VIRTUAL_ENV=/var/lib/jenkins/workspace/aceest-fitness-build/venv
+[2026-10-06T13:47:45.859Z] ++ export VIRTUAL_ENV
+[2026-10-06T13:47:45.859Z] ++ _OLD_VIRTUAL_PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+[2026-10-06T13:47:45.859Z] ++ PATH=/var/lib/jenkins/workspace/aceest-fitness-build/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+[2026-10-06T13:47:45.859Z] ++ export PATH
+[2026-10-06T13:47:45.859Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:45.859Z] ++ '[' -z '' ']'
+[2026-10-06T13:47:45.859Z] ++ _OLD_VIRTUAL_PS1=
+[2026-10-06T13:47:45.859Z] ++ PS1='(venv) '
+[2026-10-06T13:47:45.859Z] ++ export PS1
+[2026-10-06T13:47:45.859Z] ++ '[' -n /usr/bin/sh -o -n '' ']'
+[2026-10-06T13:47:45.860Z] ++ hash -r
+[2026-10-06T13:47:45.860Z] + python -m pip install --upgrade pip
+[2026-10-06T13:47:45.860Z] Requirement already satisfied: pip in ./venv/lib/python3.9/site-packages (21.3.1)
+[2026-10-06T13:47:46.120Z] Collecting pip
+[2026-10-06T13:47:46.120Z]   Using cached pip-26.0.1-py3-none-any.whl (1.8 MB)
+[2026-10-06T13:47:46.120Z] Installing collected packages: pip
+[2026-10-06T13:47:46.120Z]   Attempting uninstall: pip
+[2026-10-06T13:47:46.120Z]     Found existing installation: pip 21.3.1
+[2026-10-06T13:47:46.673Z]     Uninstalling pip-21.3.1:
+[2026-10-06T13:47:46.673Z]       Successfully uninstalled pip-21.3.1
+[2026-10-06T13:47:49.160Z] Successfully installed pip-26.0.1
+[2026-10-06T13:47:49.160Z] + pip install -r requirements-dev.txt
+[2026-10-06T13:47:50.075Z] Collecting Flask==3.0.3 (from -r /var/lib/jenkins/workspace/aceest-fitness-build/requirements.txt (line 1))
+[2026-10-06T13:47:50.075Z]   Using cached flask-3.0.3-py3-none-any.whl.metadata (3.2 kB)
+[2026-10-06T13:47:50.075Z] Collecting gunicorn==22.0.0 (from -r /var/lib/jenkins/workspace/aceest-fitness-build/requirements.txt (line 2))
+[2026-10-06T13:47:50.076Z]   Using cached gunicorn-22.0.0-py3-none-any.whl.metadata (4.4 kB)
+[2026-10-06T13:47:50.327Z] Collecting pytest==8.3.2 (from -r requirements-dev.txt (line 2))
+[2026-10-06T13:47:50.327Z]   Using cached pytest-8.3.2-py3-none-any.whl.metadata (7.5 kB)
+[2026-10-06T13:47:50.327Z] Collecting pytest-cov==5.0.0 (from -r requirements-dev.txt (line 3))
+[2026-10-06T13:47:50.327Z]   Using cached pytest_cov-5.0.0-py3-none-any.whl.metadata (27 kB)
+[2026-10-06T13:47:50.327Z] Collecting flake8==7.1.1 (from -r requirements-dev.txt (line 4))
+[2026-10-06T13:47:50.327Z]   Using cached flake8-7.1.1-py2.py3-none-any.whl.metadata (3.8 kB)
+[2026-10-06T13:47:50.327Z] Collecting Werkzeug>=3.0.0 (from Flask==3.0.3->-r /var/lib/jenkins/workspace/aceest-fitness-build/requirements.txt (line 1))
+[2026-10-06T13:47:50.327Z]   Using cached werkzeug-3.1.9-py3-none-any.whl.metadata (4.1 kB)
+[2026-10-06T13:47:50.327Z] Collecting Jinja2>=3.1.2 (from Flask==3.0.3->-r /var/lib/jenkins/workspace/aceest-fitness-build/requirements.txt (line 1))
+[2026-10-06T13:47:50.327Z]   Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+[2026-10-06T13:47:50.580Z] Collecting itsdangerous>=2.1.2 (from Flask==3.0.3->-r /var/lib/jenkins/workspace/aceest-fitness-build/requirements.txt (line 1))
+[2026-10-06T13:47:50.580Z]   Using cached itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+[2026-10-06T13:47:50.580Z] Collecting click>=8.1.3 (from Flask==3.0.3->-r /var/lib/jenkins/workspace/aceest-fitness-build/requirements.txt (line 1))
+[2026-10-06T13:47:50.580Z]   Using cached click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+[2026-10-06T13:47:50.580Z] Collecting blinker>=1.6.2 (from Flask==3.0.3->-r /var/lib/jenkins/workspace/aceest-fitness-build/requirements.txt (line 1))
+[2026-10-06T13:47:50.580Z]   Using cached blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+[2026-10-06T13:47:50.580Z] Collecting importlib-metadata>=3.6.0 (from Flask==3.0.3->-r /var/lib/jenkins/workspace/aceest-fitness-build/requirements.txt (line 1))
+[2026-10-06T13:47:50.580Z]   Using cached importlib_metadata-8.7.1-py3-none-any.whl.metadata (4.7 kB)
+[2026-10-06T13:47:50.834Z] Collecting packaging (from gunicorn==22.0.0->-r /var/lib/jenkins/workspace/aceest-fitness-build/requirements.txt (line 2))
+[2026-10-06T13:47:50.834Z]   Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+[2026-10-06T13:47:50.834Z] Collecting iniconfig (from pytest==8.3.2->-r requirements-dev.txt (line 2))
+[2026-10-06T13:47:50.834Z]   Using cached iniconfig-2.1.0-py3-none-any.whl.metadata (2.7 kB)
+[2026-10-06T13:47:50.834Z] Collecting pluggy<2,>=1.5 (from pytest==8.3.2->-r requirements-dev.txt (line 2))
+[2026-10-06T13:47:50.834Z]   Using cached pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+[2026-10-06T13:47:50.834Z] Collecting exceptiongroup>=1.0.0rc8 (from pytest==8.3.2->-r requirements-dev.txt (line 2))
+[2026-10-06T13:47:50.834Z]   Using cached exceptiongroup-1.3.1-py3-none-any.whl.metadata (6.7 kB)
+[2026-10-06T13:47:51.092Z] Collecting tomli>=1 (from pytest==8.3.2->-r requirements-dev.txt (line 2))
+[2026-10-06T13:47:51.093Z]   Using cached tomli-2.4.1-py3-none-any.whl.metadata (10 kB)
+[2026-10-06T13:47:52.444Z] Collecting coverage>=5.2.1 (from coverage[toml]>=5.2.1->pytest-cov==5.0.0->-r requirements-dev.txt (line 3))
+[2026-10-06T13:47:52.444Z]   Using cached coverage-7.10.7-cp39-cp39-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (8.9 kB)
+[2026-10-06T13:47:52.444Z] Collecting mccabe<0.8.0,>=0.7.0 (from flake8==7.1.1->-r requirements-dev.txt (line 4))
+[2026-10-06T13:47:52.444Z]   Using cached mccabe-0.7.0-py2.py3-none-any.whl.metadata (5.0 kB)
+[2026-10-06T13:47:52.444Z] Collecting pycodestyle<2.13.0,>=2.12.0 (from flake8==7.1.1->-r requirements-dev.txt (line 4))
+[2026-10-06T13:47:52.444Z]   Using cached pycodestyle-2.12.1-py2.py3-none-any.whl.metadata (4.5 kB)
+[2026-10-06T13:47:52.444Z] Collecting pyflakes<3.3.0,>=3.2.0 (from flake8==7.1.1->-r requirements-dev.txt (line 4))
+[2026-10-06T13:47:52.444Z]   Using cached pyflakes-3.2.0-py2.py3-none-any.whl.metadata (3.5 kB)
+[2026-10-06T13:47:52.704Z] Collecting typing-extensions>=4.6.0 (from exceptiongroup>=1.0.0rc8->pytest==8.3.2->-r requirements-dev.txt (line 2))
+[2026-10-06T13:47:52.705Z]   Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+[2026-10-06T13:47:52.705Z] Collecting zipp>=3.20 (from importlib-metadata>=3.6.0->Flask==3.0.3->-r /var/lib/jenkins/workspace/aceest-fitness-build/requirements.txt (line 1))
+[2026-10-06T13:47:52.705Z]   Using cached zipp-3.23.1-py3-none-any.whl.metadata (3.6 kB)
+[2026-10-06T13:47:52.956Z] Collecting MarkupSafe>=2.0 (from Jinja2>=3.1.2->Flask==3.0.3->-r /var/lib/jenkins/workspace/aceest-fitness-build/requirements.txt (line 1))
+[2026-10-06T13:47:52.956Z]   Using cached markupsafe-3.0.4-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+[2026-10-06T13:47:52.956Z] Using cached flask-3.0.3-py3-none-any.whl (101 kB)
+[2026-10-06T13:47:52.956Z] Using cached gunicorn-22.0.0-py3-none-any.whl (84 kB)
+[2026-10-06T13:47:52.959Z] Using cached pytest-8.3.2-py3-none-any.whl (341 kB)
+[2026-10-06T13:47:52.959Z] Using cached pytest_cov-5.0.0-py3-none-any.whl (21 kB)
+[2026-10-06T13:47:52.959Z] Using cached flake8-7.1.1-py2.py3-none-any.whl (57 kB)
+[2026-10-06T13:47:52.959Z] Using cached mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+[2026-10-06T13:47:52.959Z] Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+[2026-10-06T13:47:52.959Z] Using cached pycodestyle-2.12.1-py2.py3-none-any.whl (31 kB)
+[2026-10-06T13:47:52.959Z] Using cached pyflakes-3.2.0-py2.py3-none-any.whl (62 kB)
+[2026-10-06T13:47:52.959Z] Using cached blinker-1.9.0-py3-none-any.whl (8.5 kB)
+[2026-10-06T13:47:52.959Z] Using cached click-8.1.8-py3-none-any.whl (98 kB)
+[2026-10-06T13:47:52.959Z] Using cached coverage-7.10.7-cp39-cp39-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (246 kB)
+[2026-10-06T13:47:52.959Z] Using cached exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+[2026-10-06T13:47:52.959Z] Using cached importlib_metadata-8.7.1-py3-none-any.whl (27 kB)
+[2026-10-06T13:47:52.959Z] Using cached itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+[2026-10-06T13:47:52.959Z] Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+[2026-10-06T13:47:52.959Z] Using cached markupsafe-3.0.4-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (20 kB)
+[2026-10-06T13:47:52.959Z] Using cached tomli-2.4.1-py3-none-any.whl (14 kB)
+[2026-10-06T13:47:52.959Z] Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+[2026-10-06T13:47:52.959Z] Using cached werkzeug-3.1.9-py3-none-any.whl (228 kB)
+[2026-10-06T13:47:52.959Z] Using cached zipp-3.23.1-py3-none-any.whl (10 kB)
+[2026-10-06T13:47:52.959Z] Using cached iniconfig-2.1.0-py3-none-any.whl (6.0 kB)
+[2026-10-06T13:47:52.959Z] Using cached packaging-26.3-py3-none-any.whl (129 kB)
+[2026-10-06T13:47:53.219Z] Installing collected packages: zipp, typing-extensions, tomli, pyflakes, pycodestyle, pluggy, packaging, mccabe, MarkupSafe, itsdangerous, iniconfig, coverage, click, blinker, Werkzeug, Jinja2, importlib-metadata, gunicorn, flake8, exceptiongroup, pytest, Flask, pytest-cov
+[2026-10-06T13:47:55.705Z] 
+[2026-10-06T13:47:55.705Z] Successfully installed Flask-3.0.3 Jinja2-3.1.6 MarkupSafe-3.0.4 Werkzeug-3.1.9 blinker-1.9.0 click-8.1.8 coverage-7.10.7 exceptiongroup-1.3.1 flake8-7.1.1 gunicorn-22.0.0 importlib-metadata-8.7.1 iniconfig-2.1.0 itsdangerous-2.2.0 mccabe-0.7.0 packaging-26.3 pluggy-1.6.0 pycodestyle-2.12.1 pyflakes-3.2.0 pytest-8.3.2 pytest-cov-5.0.0 tomli-2.4.1 typing-extensions-4.16.0 zipp-3.23.1
+[8mha:////4LrdsdhZvKQ6QMBwJcPhD7qcj4eAelzRKLyfP24kGgsCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BpKm1V++AAAA[0m[Pipeline] }
+[8mha:////4HFC6w9KJqpCM1zqU5Jh/EHQC/5yATDsl4wQcxATNTzNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN6FFjuO+AAAA[0m[Pipeline] // stage
+[8mha:////4K1odPU5vQEQ9Q9uHsXPVhpBqScVNGU9txBCEhQryTwTAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCAkG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bdvd5Vm8TlRF/wgAAAA==[0m[Pipeline] stage
+[8mha:////4L9XAdT5Naetkzd9xEsuOnZYiOl5KlJU9G7ov1lsCcukAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (Lint)
+[8mha:////4CvhS7uF0/tp0BrwPLNPaYmeqBMPJxItxiohWJPzOsroAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEGDPXtvgAAAA==[0m[Pipeline] echo
+[2026-10-06T13:47:56.502Z] Checking for syntax errors and style violations...
+[8mha:////4LwBUgj/H4Bn0lgogW5QYeM8NAoRW6rlqK8zwaJK3BV7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUCCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAFHPe70vgAAAA==[0m[Pipeline] sh
+[2026-10-06T13:47:56.792Z] + . venv/bin/activate
+[2026-10-06T13:47:56.793Z] ++ deactivate nondestructive
+[2026-10-06T13:47:56.793Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:56.794Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:56.794Z] ++ '[' -n /usr/bin/sh -o -n '' ']'
+[2026-10-06T13:47:56.794Z] ++ hash -r
+[2026-10-06T13:47:56.794Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:56.794Z] ++ unset VIRTUAL_ENV
+[2026-10-06T13:47:56.794Z] ++ '[' '!' nondestructive = nondestructive ']'
+[2026-10-06T13:47:56.794Z] ++ VIRTUAL_ENV=/var/lib/jenkins/workspace/aceest-fitness-build/venv
+[2026-10-06T13:47:56.794Z] ++ export VIRTUAL_ENV
+[2026-10-06T13:47:56.794Z] ++ _OLD_VIRTUAL_PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+[2026-10-06T13:47:56.794Z] ++ PATH=/var/lib/jenkins/workspace/aceest-fitness-build/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+[2026-10-06T13:47:56.794Z] ++ export PATH
+[2026-10-06T13:47:56.794Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:56.794Z] ++ '[' -z '' ']'
+[2026-10-06T13:47:56.794Z] ++ _OLD_VIRTUAL_PS1=
+[2026-10-06T13:47:56.794Z] ++ PS1='(venv) '
+[2026-10-06T13:47:56.794Z] ++ export PS1
+[2026-10-06T13:47:56.794Z] ++ '[' -n /usr/bin/sh -o -n '' ']'
+[2026-10-06T13:47:56.794Z] ++ hash -r
+[2026-10-06T13:47:56.794Z] + flake8 . --count --statistics
+[2026-10-06T13:47:57.707Z] 0
+[8mha:////4JnYBBe9spcTyi7A85NK+KKVjNAHTumm+OAtBKU3AcUVAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAP3+A6L4AAAA=[0m[Pipeline] }
+[8mha:////4GkUJNnUve9KvihDftC+GFs5K0fER1bZ44nt9dy/XvsEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw8MnNtUvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BkjQWfwhSp/NkKe5Goo8yG15cSdOyOj5Za5Y9hnuMPnAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUICQG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bbvt5Vm+L6SchwgAAAA==[0m[Pipeline] stage
+[8mha:////4Ehlp5QUrAvfNS8VfMdypEH5akjXW6gOVL6Noj7i4ROqAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] { (Build Check)
+[8mha:////4BsrbMIH8O+zx9UeuxY2xFGsATlaKXgrjTCtMMPSQuA0AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkA5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fhXiFur4AAAA=[0m[Pipeline] echo
+[2026-10-06T13:47:57.929Z] Confirming the application builds and imports...
+[8mha:////4IU3PrkGDY/qSfPCUP6P9YqE5cDBuVrRd+GJYOfJdhooAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBsRJnqO+AAAA[0m[Pipeline] sh
+[2026-10-06T13:47:58.231Z] + . venv/bin/activate
+[2026-10-06T13:47:58.232Z] ++ deactivate nondestructive
+[2026-10-06T13:47:58.232Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:58.232Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:58.232Z] ++ '[' -n /usr/bin/sh -o -n '' ']'
+[2026-10-06T13:47:58.232Z] ++ hash -r
+[2026-10-06T13:47:58.232Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:58.232Z] ++ unset VIRTUAL_ENV
+[2026-10-06T13:47:58.232Z] ++ '[' '!' nondestructive = nondestructive ']'
+[2026-10-06T13:47:58.232Z] ++ VIRTUAL_ENV=/var/lib/jenkins/workspace/aceest-fitness-build/venv
+[2026-10-06T13:47:58.232Z] ++ export VIRTUAL_ENV
+[2026-10-06T13:47:58.232Z] ++ _OLD_VIRTUAL_PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+[2026-10-06T13:47:58.232Z] ++ PATH=/var/lib/jenkins/workspace/aceest-fitness-build/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+[2026-10-06T13:47:58.232Z] ++ export PATH
+[2026-10-06T13:47:58.232Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:58.232Z] ++ '[' -z '' ']'
+[2026-10-06T13:47:58.232Z] ++ _OLD_VIRTUAL_PS1=
+[2026-10-06T13:47:58.232Z] ++ PS1='(venv) '
+[2026-10-06T13:47:58.232Z] ++ export PS1
+[2026-10-06T13:47:58.232Z] ++ '[' -n /usr/bin/sh -o -n '' ']'
+[2026-10-06T13:47:58.232Z] ++ hash -r
+[2026-10-06T13:47:58.232Z] + python -c 'from aceest import create_app; create_app(db_path='\'':memory:'\''); print('\''Application build OK'\'')'
+[2026-10-06T13:47:58.784Z] Application build OK
+[8mha:////4I1Z4K+UdNVR4Ye5azYm+l0Kp0GT5BHpbqsC1S1vi//MAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN/zO9Xa+AAAA[0m[Pipeline] }
+[8mha:////4BXiD+GRDnvF8HVALm167qXPk0FLwqS79z5vO6W63x5mAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g3PLa7KvgAAAA==[0m[Pipeline] // stage
+[8mha:////4J6cy/qx30siIWBg9Cxt1FkoQEhO5TIZS+0XjY3bqAldAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSBEFBunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKUm1227f7zrN7tyryAwgAAAA==[0m[Pipeline] stage
+[8mha:////4IFCIPpiqemNWewd0RfXEhZb9nm/I7sL8jUWSwONbjo/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] { (Unit Tests)
+[8mha:////4Lnv2peyiUZ2YPG7gWZnIj/lqN+T/To4KGH66ZphFhJHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAQVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/4iFt7vgAAAA==[0m[Pipeline] echo
+[2026-10-06T13:47:58.996Z] Running the Pytest suite...
+[8mha:////4C7yI/lY/zfag/5w8tARhTFzCu22Bg5H8yPJvWwr3xHWAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAublAYr4AAAA=[0m[Pipeline] sh
+[2026-10-06T13:47:59.316Z] + . venv/bin/activate
+[2026-10-06T13:47:59.316Z] ++ deactivate nondestructive
+[2026-10-06T13:47:59.317Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:59.317Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:59.317Z] ++ '[' -n /usr/bin/sh -o -n '' ']'
+[2026-10-06T13:47:59.317Z] ++ hash -r
+[2026-10-06T13:47:59.317Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:59.317Z] ++ unset VIRTUAL_ENV
+[2026-10-06T13:47:59.317Z] ++ '[' '!' nondestructive = nondestructive ']'
+[2026-10-06T13:47:59.317Z] ++ VIRTUAL_ENV=/var/lib/jenkins/workspace/aceest-fitness-build/venv
+[2026-10-06T13:47:59.317Z] ++ export VIRTUAL_ENV
+[2026-10-06T13:47:59.317Z] ++ _OLD_VIRTUAL_PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+[2026-10-06T13:47:59.317Z] ++ PATH=/var/lib/jenkins/workspace/aceest-fitness-build/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+[2026-10-06T13:47:59.317Z] ++ export PATH
+[2026-10-06T13:47:59.317Z] ++ '[' -n '' ']'
+[2026-10-06T13:47:59.317Z] ++ '[' -z '' ']'
+[2026-10-06T13:47:59.317Z] ++ _OLD_VIRTUAL_PS1=
+[2026-10-06T13:47:59.317Z] ++ PS1='(venv) '
+[2026-10-06T13:47:59.317Z] ++ export PS1
+[2026-10-06T13:47:59.317Z] ++ '[' -n /usr/bin/sh -o -n '' ']'
+[2026-10-06T13:47:59.317Z] ++ hash -r
+[2026-10-06T13:47:59.317Z] + pytest -v --junitxml=report.xml --cov=aceest --cov-report=xml
+[2026-10-06T13:48:00.663Z] ============================= test session starts ==============================
+[2026-10-06T13:48:00.663Z] platform linux -- Python 3.9.21, pytest-8.3.2, pluggy-1.6.0 -- /var/lib/jenkins/workspace/aceest-fitness-build/venv/bin/python
+[2026-10-06T13:48:00.663Z] cachedir: .pytest_cache
+[2026-10-06T13:48:00.663Z] rootdir: /var/lib/jenkins/workspace/aceest-fitness-build
+[2026-10-06T13:48:00.663Z] configfile: setup.cfg
+[2026-10-06T13:48:00.663Z] testpaths: tests
+[2026-10-06T13:48:00.663Z] plugins: cov-5.0.0
+[2026-10-06T13:48:00.663Z] collecting ... collected 97 items
+[2026-10-06T13:48:00.663Z] 
+[2026-10-06T13:48:00.663Z] tests/test_clients_api.py::test_index_describes_the_service PASSED       [  1%]
+[2026-10-06T13:48:00.914Z] tests/test_clients_api.py::test_health_reports_healthy PASSED            [  2%]
+[2026-10-06T13:48:00.914Z] tests/test_clients_api.py::test_programs_endpoint_returns_the_catalogue PASSED [  3%]
+[2026-10-06T13:48:00.914Z] tests/test_clients_api.py::test_unknown_route_returns_json_404 PASSED    [  4%]
+[2026-10-06T13:48:00.915Z] tests/test_clients_api.py::test_wrong_method_returns_json_405 PASSED     [  5%]
+[2026-10-06T13:48:01.166Z] tests/test_clients_api.py::test_client_is_saved_with_a_calculated_calorie_target PASSED [  6%]
+[2026-10-06T13:48:01.166Z] tests/test_clients_api.py::test_saving_the_same_name_again_updates_the_record PASSED [  7%]
+[2026-10-06T13:48:01.166Z] tests/test_clients_api.py::test_client_without_weight_has_no_calorie_target PASSED [  8%]
+[2026-10-06T13:48:01.166Z] tests/test_clients_api.py::test_client_name_is_trimmed PASSED            [  9%]
+[2026-10-06T13:48:01.166Z] tests/test_clients_api.py::test_invalid_client_payloads_are_rejected[payload0-name] PASSED [ 10%]
+[2026-10-06T13:48:01.166Z] tests/test_clients_api.py::test_invalid_client_payloads_are_rejected[payload1-name] PASSED [ 11%]
+[2026-10-06T13:48:01.166Z] tests/test_clients_api.py::test_invalid_client_payloads_are_rejected[payload2-program] PASSED [ 12%]
+[2026-10-06T13:48:01.417Z] tests/test_clients_api.py::test_invalid_client_payloads_are_rejected[payload3-program] PASSED [ 13%]
+[2026-10-06T13:48:01.417Z] tests/test_clients_api.py::test_invalid_client_payloads_are_rejected[payload4-weight] PASSED [ 14%]
+[2026-10-06T13:48:01.417Z] tests/test_clients_api.py::test_invalid_client_payloads_are_rejected[payload5-weight] PASSED [ 15%]
+[2026-10-06T13:48:01.417Z] tests/test_clients_api.py::test_invalid_client_payloads_are_rejected[payload6-age] PASSED [ 16%]
+[2026-10-06T13:48:01.681Z] tests/test_clients_api.py::test_invalid_client_payloads_are_rejected[payload7-height] PASSED [ 17%]
+[2026-10-06T13:48:01.681Z] tests/test_clients_api.py::test_invalid_client_payloads_are_rejected[payload8-target_adherence] PASSED [ 18%]
+[2026-10-06T13:48:01.681Z] tests/test_clients_api.py::test_client_can_be_loaded_by_name PASSED      [ 19%]
+[2026-10-06T13:48:01.681Z] tests/test_clients_api.py::test_client_lookup_is_case_insensitive PASSED [ 20%]
+[2026-10-06T13:48:01.681Z] tests/test_clients_api.py::test_missing_client_returns_404 PASSED        [ 21%]
+[2026-10-06T13:48:01.932Z] tests/test_clients_api.py::test_clients_can_be_listed PASSED             [ 22%]
+[2026-10-06T13:48:01.932Z] tests/test_clients_api.py::test_client_can_be_deleted PASSED             [ 23%]
+[2026-10-06T13:48:02.189Z] tests/test_clients_api.py::test_deleting_a_missing_client_returns_404 PASSED [ 24%]
+[2026-10-06T13:48:02.189Z] tests/test_clients_api.py::test_bmi_endpoint_returns_the_band_and_risk_note PASSED [ 25%]
+[2026-10-06T13:48:02.189Z] tests/test_clients_api.py::test_bmi_requires_height_and_weight PASSED    [ 26%]
+[2026-10-06T13:48:02.189Z] tests/test_clients_api.py::test_membership_defaults_to_active PASSED     [ 27%]
+[2026-10-06T13:48:02.440Z] tests/test_clients_api.py::test_membership_can_be_set_explicitly PASSED  [ 28%]
+[2026-10-06T13:48:02.440Z] tests/test_clients_api.py::test_summary_combines_profile_bmi_and_activity PASSED [ 29%]
+[2026-10-06T13:48:02.440Z] tests/test_clients_api.py::test_summary_for_a_missing_client_returns_404 PASSED [ 30%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_catalogue_matches_the_baseline_factors PASSED [ 31%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_list_programs_returns_every_programme_sorted PASSED [ 32%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_get_program_is_case_insensitive PASSED      [ 34%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_get_program_rejects_unknown_codes[None] PASSED [ 35%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_get_program_rejects_unknown_codes[] PASSED  [ 36%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_get_program_rejects_unknown_codes[UNKNOWN] PASSED [ 37%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_get_program_rejects_unknown_codes[   ] PASSED [ 38%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_calorie_target_multiplies_weight_by_the_factor PASSED [ 39%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_calorie_target_truncates_to_a_whole_number PASSED [ 40%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_calorie_target_returns_none_for_invalid_input[None-FL3] PASSED [ 41%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_calorie_target_returns_none_for_invalid_input[0-FL3] PASSED [ 42%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_calorie_target_returns_none_for_invalid_input[-5-FL3] PASSED [ 43%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_calorie_target_returns_none_for_invalid_input[80-NOPE] PASSED [ 44%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_calorie_target_returns_none_for_invalid_input[80-None] PASSED [ 45%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_bmi_is_calculated_from_height_in_centimetres PASSED [ 46%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_bmi_is_rounded_to_one_decimal PASSED        [ 47%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_bmi_returns_none_for_invalid_input[0-80] PASSED [ 48%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_bmi_returns_none_for_invalid_input[178-0] PASSED [ 49%]
+[2026-10-06T13:48:02.440Z] tests/test_programs.py::test_bmi_returns_none_for_invalid_input[None-80] PASSED [ 50%]
+[2026-10-06T13:48:02.441Z] tests/test_programs.py::test_bmi_returns_none_for_invalid_input[178-None] PASSED [ 51%]
+[2026-10-06T13:48:02.441Z] tests/test_programs.py::test_bmi_returns_none_for_invalid_input[-178-80] PASSED [ 52%]
+[2026-10-06T13:48:02.693Z] tests/test_programs.py::test_bmi_bands_match_the_baseline_thresholds[17.0-Underweight] PASSED [ 53%]
+[2026-10-06T13:48:02.693Z] tests/test_programs.py::test_bmi_bands_match_the_baseline_thresholds[18.4-Underweight] PASSED [ 54%]
+[2026-10-06T13:48:02.693Z] tests/test_programs.py::test_bmi_bands_match_the_baseline_thresholds[18.5-Normal] PASSED [ 55%]
+[2026-10-06T13:48:02.693Z] tests/test_programs.py::test_bmi_bands_match_the_baseline_thresholds[24.9-Normal] PASSED [ 56%]
+[2026-10-06T13:48:02.693Z] tests/test_programs.py::test_bmi_bands_match_the_baseline_thresholds[25.0-Overweight] PASSED [ 57%]
+[2026-10-06T13:48:02.693Z] tests/test_programs.py::test_bmi_bands_match_the_baseline_thresholds[29.9-Overweight] PASSED [ 58%]
+[2026-10-06T13:48:02.693Z] tests/test_programs.py::test_bmi_bands_match_the_baseline_thresholds[30.0-Obese] PASSED [ 59%]
+[2026-10-06T13:48:02.693Z] tests/test_programs.py::test_bmi_bands_match_the_baseline_thresholds[41.2-Obese] PASSED [ 60%]
+[2026-10-06T13:48:02.693Z] tests/test_programs.py::test_bmi_category_handles_a_missing_value PASSED [ 61%]
+[2026-10-06T13:48:02.693Z] tests/test_programs.py::test_current_week_uses_the_baseline_format PASSED [ 62%]
+[2026-10-06T13:48:02.693Z] tests/test_programs.py::test_current_week_defaults_to_now PASSED         [ 63%]
+[2026-10-06T13:48:02.693Z] tests/test_tracking_api.py::test_progress_is_logged_against_the_client PASSED [ 64%]
+[2026-10-06T13:48:02.693Z] tests/test_tracking_api.py::test_progress_accepts_an_explicit_week PASSED [ 65%]
+[2026-10-06T13:48:02.693Z] tests/test_tracking_api.py::test_invalid_adherence_is_rejected[-1] PASSED [ 67%]
+[2026-10-06T13:48:02.944Z] tests/test_tracking_api.py::test_invalid_adherence_is_rejected[101] PASSED [ 68%]
+[2026-10-06T13:48:02.944Z] tests/test_tracking_api.py::test_invalid_adherence_is_rejected[high] PASSED [ 69%]
+[2026-10-06T13:48:02.944Z] tests/test_tracking_api.py::test_invalid_adherence_is_rejected[None] PASSED [ 70%]
+[2026-10-06T13:48:02.944Z] tests/test_tracking_api.py::test_invalid_adherence_is_rejected[True] PASSED [ 71%]
+[2026-10-06T13:48:02.944Z] tests/test_tracking_api.py::test_progress_for_a_missing_client_returns_404 PASSED [ 72%]
+[2026-10-06T13:48:03.195Z] tests/test_tracking_api.py::test_progress_history_is_returned_in_order PASSED [ 73%]
+[2026-10-06T13:48:03.195Z] tests/test_tracking_api.py::test_workout_is_logged_with_todays_date_by_default PASSED [ 74%]
+[2026-10-06T13:48:03.195Z] tests/test_tracking_api.py::test_workout_type_is_normalised PASSED       [ 75%]
+[2026-10-06T13:48:03.196Z] tests/test_tracking_api.py::test_invalid_workout_payloads_are_rejected[payload0-workout_type] PASSED [ 76%]
+[2026-10-06T13:48:03.196Z] tests/test_tracking_api.py::test_invalid_workout_payloads_are_rejected[payload1-workout_type] PASSED [ 77%]
+[2026-10-06T13:48:03.196Z] tests/test_tracking_api.py::test_invalid_workout_payloads_are_rejected[payload2-duration_min] PASSED [ 78%]
+[2026-10-06T13:48:03.447Z] tests/test_tracking_api.py::test_invalid_workout_payloads_are_rejected[payload3-duration_min] PASSED [ 79%]
+[2026-10-06T13:48:03.447Z] tests/test_tracking_api.py::test_invalid_workout_payloads_are_rejected[payload4-duration_min] PASSED [ 80%]
+[2026-10-06T13:48:03.447Z] tests/test_tracking_api.py::test_invalid_workout_payloads_are_rejected[payload5-duration_min] PASSED [ 81%]
+[2026-10-06T13:48:03.447Z] tests/test_tracking_api.py::test_workout_history_totals_the_minutes PASSED [ 82%]
+[2026-10-06T13:48:03.699Z] tests/test_tracking_api.py::test_workout_history_for_a_missing_client_returns_404 PASSED [ 83%]
+[2026-10-06T13:48:03.699Z] tests/test_tracking_api.py::test_exercise_is_attached_to_a_workout PASSED [ 84%]
+[2026-10-06T13:48:03.699Z] tests/test_tracking_api.py::test_exercise_volume_is_totalled PASSED      [ 85%]
+[2026-10-06T13:48:03.699Z] tests/test_tracking_api.py::test_invalid_exercise_payloads_are_rejected[payload0-name] PASSED [ 86%]
+[2026-10-06T13:48:03.950Z] tests/test_tracking_api.py::test_invalid_exercise_payloads_are_rejected[payload1-sets] PASSED [ 87%]
+[2026-10-06T13:48:03.950Z] tests/test_tracking_api.py::test_invalid_exercise_payloads_are_rejected[payload2-reps] PASSED [ 88%]
+[2026-10-06T13:48:03.950Z] tests/test_tracking_api.py::test_invalid_exercise_payloads_are_rejected[payload3-sets] PASSED [ 89%]
+[2026-10-06T13:48:03.950Z] tests/test_tracking_api.py::test_invalid_exercise_payloads_are_rejected[payload4-weight] PASSED [ 90%]
+[2026-10-06T13:48:03.950Z] tests/test_tracking_api.py::test_exercise_on_a_missing_workout_returns_404 PASSED [ 91%]
+[2026-10-06T13:48:04.201Z] tests/test_tracking_api.py::test_metrics_are_logged PASSED               [ 92%]
+[2026-10-06T13:48:04.201Z] tests/test_tracking_api.py::test_metric_weight_change_is_reported PASSED [ 93%]
+[2026-10-06T13:48:04.201Z] tests/test_tracking_api.py::test_single_metric_has_no_weight_change PASSED [ 94%]
+[2026-10-06T13:48:04.201Z] tests/test_tracking_api.py::test_invalid_metric_payloads_are_rejected[payload0-weight] PASSED [ 95%]
+[2026-10-06T13:48:04.201Z] tests/test_tracking_api.py::test_invalid_metric_payloads_are_rejected[payload1-weight] PASSED [ 96%]
+[2026-10-06T13:48:04.201Z] tests/test_tracking_api.py::test_invalid_metric_payloads_are_rejected[payload2-waist] PASSED [ 97%]
+[2026-10-06T13:48:04.456Z] tests/test_tracking_api.py::test_invalid_metric_payloads_are_rejected[payload3-bodyfat] PASSED [ 98%]
+[2026-10-06T13:48:04.709Z] tests/test_tracking_api.py::test_metrics_for_a_missing_client_returns_404 PASSED [100%]
+[2026-10-06T13:48:04.709Z] 
+[2026-10-06T13:48:04.709Z] - generated xml file: /var/lib/jenkins/workspace/aceest-fitness-build/report.xml -
+[2026-10-06T13:48:04.709Z] 
+[2026-10-06T13:48:04.709Z] ---------- coverage: platform linux, python 3.9.21-final-0 -----------
+[2026-10-06T13:48:04.709Z] Coverage XML written to file coverage.xml
+[2026-10-06T13:48:04.709Z] 
+[2026-10-06T13:48:04.709Z] ============================== 97 passed in 4.08s ==============================
+Post stage
+[8mha:////4JuGrivBgCBURUvyElACPqTYlbWc7tmtyPKoeV+Aok+jAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAeuptSb4AAAA=[0m[Pipeline] junit
+[2026-10-06T13:48:05.142Z] Recording test results
+[2026-10-06T13:48:05.344Z] [Checks API] No suitable checks publisher found.
+[8mha:////4M1NYFu9CffCV103kNUGBMQk9PJIZ7oErIEWuYc4BxPXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/lvZpgvgAAAA==[0m[Pipeline] }
+[8mha:////4Gk7rzj2t5uQ0C5ehZmnDdCi1tyXXSEEnYgpfKDKHeEqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBAkJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw/LvZgKvgAAAA==[0m[Pipeline] // stage
+[8mha:////4NDVD5tELG0CueP5+j8eYnvvYFd4GAPFnLW23vTwRv7IAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDBUDYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlbp+taT7P6g2H0lWawgAAAA==[0m[Pipeline] stage
+[8mha:////4I1BUGMbBXR+DukN2zs4yJEIJPC7Vkk9VKoIdfjvgMvyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] { (Docker Image)
+[8mha:////4MLOUFZQQfuGlpbLwddnxtye8qbpWmJp2FNwNxrV9lXtAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBkhu+A6+AAAA[0m[Pipeline] sh
+[2026-10-06T13:48:06.195Z] + command -v docker
+[2026-10-06T13:48:06.195Z] /usr/bin/docker
+[8mha:////4A0VQCV7S1x5YCgrMKjQ80MQFd2czSsCWBNXrb9jSfKEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN4dyYIm+AAAA[0m[Pipeline] echo
+[2026-10-06T13:48:06.299Z] Building the Docker image...
+[8mha:////4N60OKcoFhBi4vi8IcqSnoKkKMCQTqy9fWHLBmU7ZadsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN8ZDe5C+AAAA[0m[Pipeline] sh
+[2026-10-06T13:48:06.622Z] + docker build --target runtime -t aceest-fitness:2 .
+[2026-10-06T13:48:07.538Z] #0 building with "default" instance using docker driver
+[2026-10-06T13:48:07.538Z] 
+[2026-10-06T13:48:07.538Z] #1 [internal] load build definition from Dockerfile
+[2026-10-06T13:48:07.538Z] #1 transferring dockerfile: 2.59kB done
+[2026-10-06T13:48:07.538Z] #1 DONE 0.0s
+[2026-10-06T13:48:07.538Z] 
+[2026-10-06T13:48:07.538Z] #2 resolve image config for docker-image://docker.io/docker/dockerfile:1
+[2026-10-06T13:48:08.091Z] #2 DONE 1.0s
+[2026-10-06T13:48:08.342Z] 
+[2026-10-06T13:48:08.342Z] #3 docker-image://docker.io/docker/dockerfile:1@sha256:4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e
+[2026-10-06T13:48:08.342Z] #3 CACHED
+[2026-10-06T13:48:08.342Z] 
+[2026-10-06T13:48:08.342Z] #4 [internal] load metadata for docker.io/library/python:3.12-slim
+[2026-10-06T13:48:09.258Z] #4 DONE 0.9s
+[2026-10-06T13:48:09.508Z] 
+[2026-10-06T13:48:09.509Z] #5 [internal] load .dockerignore
+[2026-10-06T13:48:09.509Z] #5 transferring context: 239B done
+[2026-10-06T13:48:09.509Z] #5 DONE 0.0s
+[2026-10-06T13:48:09.764Z] 
+[2026-10-06T13:48:09.764Z] #6 [base 1/4] FROM docker.io/library/python:3.12-slim@sha256:05cda9777409a9c3ffddd94a4c476b79f0769a0b4857f0c7ed9226b6800b0d6f
+[2026-10-06T13:48:09.764Z] #6 DONE 0.0s
+[2026-10-06T13:48:09.764Z] 
+[2026-10-06T13:48:09.764Z] #7 [internal] load build context
+[2026-10-06T13:48:09.764Z] #7 transferring context: 54.43kB 0.0s done
+[2026-10-06T13:48:09.764Z] #7 DONE 0.0s
+[2026-10-06T13:48:09.764Z] 
+[2026-10-06T13:48:09.764Z] #8 [base 4/4] RUN pip install --no-cache-dir -r requirements.txt
+[2026-10-06T13:48:09.764Z] #8 CACHED
+[2026-10-06T13:48:09.764Z] 
+[2026-10-06T13:48:09.764Z] #9 [base 3/4] COPY requirements.txt .
+[2026-10-06T13:48:09.765Z] #9 CACHED
+[2026-10-06T13:48:09.765Z] 
+[2026-10-06T13:48:09.765Z] #10 [runtime 1/4] RUN useradd --create-home --shell /usr/sbin/nologin appuser
+[2026-10-06T13:48:09.765Z] #10 CACHED
+[2026-10-06T13:48:09.765Z] 
+[2026-10-06T13:48:09.765Z] #11 [base 2/4] WORKDIR /app
+[2026-10-06T13:48:09.765Z] #11 CACHED
+[2026-10-06T13:48:09.765Z] 
+[2026-10-06T13:48:09.765Z] #12 [runtime 2/4] COPY app.py .
+[2026-10-06T13:48:09.765Z] #12 CACHED
+[2026-10-06T13:48:09.765Z] 
+[2026-10-06T13:48:09.765Z] #13 [runtime 3/4] COPY aceest/ ./aceest/
+[2026-10-06T13:48:09.765Z] #13 DONE 0.1s
+[2026-10-06T13:48:09.765Z] 
+[2026-10-06T13:48:09.765Z] #14 [runtime 4/4] RUN mkdir -p /data && chown appuser:appuser /data
+[2026-10-06T13:48:10.320Z] #14 DONE 0.5s
+[2026-10-06T13:48:10.321Z] 
+[2026-10-06T13:48:10.321Z] #15 exporting to image
+[2026-10-06T13:48:10.321Z] #15 exporting layers 0.1s done
+[2026-10-06T13:48:10.321Z] #15 writing image sha256:df3720755a9f2bca98afe28b5436e228940dec557ef0bd946046f70a5eee7874 done
+[2026-10-06T13:48:10.321Z] #15 naming to docker.io/library/aceest-fitness:2 done
+[2026-10-06T13:48:10.321Z] #15 DONE 0.2s
+[2026-10-06T13:48:10.573Z] + docker tag aceest-fitness:2 aceest-fitness:latest
+[2026-10-06T13:48:10.573Z] + docker images aceest-fitness
+[2026-10-06T13:48:10.573Z] REPOSITORY       TAG       IMAGE ID       CREATED                  SIZE
+[2026-10-06T13:48:10.573Z] aceest-fitness   2         df3720755a9f   Less than a second ago   126MB
+[2026-10-06T13:48:10.573Z] aceest-fitness   latest    df3720755a9f   Less than a second ago   126MB
+[2026-10-06T13:48:10.573Z] aceest-fitness   test      0cddb4fd2b45   7 minutes ago            132MB
+[8mha:////4I0W6Ley4Pd/kxKnVCNf22WLz2A1VKdUVaKVK8PlQitJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQxpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoPwb5Ql6+AAAA[0m[Pipeline] }
+[8mha:////4JiLi0J9Lpu5EwBUDHMsIFpZb9fkHQpM46YKLosabv/CAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRRWgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygP+1x1/QEZexcMvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Fw5i2y/3Q2OBqJBsr/z4UadpsK0DbxagzKOtMJazD9fAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMMCAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WfbbT/P6g2i+Li2wgAAAA==[0m[Pipeline] stage
+[8mha:////4CwSj6JJt5dsGH9Er3aHNlU3ibsqhnqHLXfm8JNReLKkAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4GM19YJB7tlg3LUGowClty2fAPh8vqCBUEcXShcQnp3hAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5arJPu+AAAA[0m[Pipeline] echo
+[2026-10-06T13:48:10.768Z] Cleaning the workspace...
+[8mha:////4If+VJ277uozHhA4IS4yIRbY/DZ9LAOeBElyqbyG8OfJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN9eaP+K+AAAA[0m[Pipeline] sh
+[2026-10-06T13:48:11.121Z] + rm -rf venv
+[8mha:////4JFVFNY2PTyYEnRRpKe64AQKRlt+FWI3EO1yL4m+tBvOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIKVBVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUw+QVnvP1X7NxTJEsm+AAAA[0m[Pipeline] echo
+[2026-10-06T13:48:11.450Z] BUILD SUCCESS - commit 813fdde, build #2
+[8mha:////4JTN0Og5Hcy+CCfDqp2YxTTS/MiHUjha3jZzPvI5T+HLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHybgAYvgAAAA==[0m[Pipeline] }
+[8mha:////4D1LgYH0SyH4f/MFzPtgUlqZZO2Bi/q34PB+Y1HsAAL9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g2x7FGevgAAAA==[0m[Pipeline] // stage
+[8mha:////4NbJdkllsDdsU+m/vnH4y0p7TZC3P9d6DEKq/IBuv4P8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGhBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w9cXSZqvgAAAA==[0m[Pipeline] }
+[8mha:////4FmB+5dFYp2IywnRmlCsc+Z1o2dS+zDtgRBIF7JmecPGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDRQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtdu/wG2N1mcvgAAAA==[0m[Pipeline] // timeout
+[8mha:////4LHY7dkW/KRIJVq+jQjAH9CTgWdDIXnJlYu6mYeIe1jSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiFIgCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPV+w+ptQzOvgAAAA==[0m[Pipeline] }
+[8mha:////4HmEK5hCIsQfb3lKoM6vtcYl6bE2BQMO7bcq6+3EksZ5AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu13X8AkfefP74AAAA=[0m[Pipeline] // timestamps
+[8mha:////4KtvuqN9g68sZVhfcsuqkDCIeilFWaoKl1oj7A8+8MdYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRSkGBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkF5qHPt6w+XsadqvgAAAA==[0m[Pipeline] }
+[8mha:////4Eku0uPMFlj9Zx+508vYTXq4Kcg7m+RqREC+OVA78v1EAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM+13X0AubGlAL4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4LGqHYxXNcRH9ozPBJrWw4rPNGfqkYenOSjlItYntHSSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiFIgCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF52Oeq6w+mM/BSvgAAAA==[0m[Pipeline] }
+[8mha:////4GPm8iiNf30ud6hYyJIQ70ZbfTlYupQPh9qSIunsLYZmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDRQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDPtdu+wGecWOjvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4ATWKoOev0naLJY7/JSrFrCLisK2kalXTfMZUS1/PEL7AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IsJgzGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HiBQ8tr0AAAA=[0m[Pipeline] }
+[8mha:////4EATCx44gBu61flKllLebWeBibw8rh53Vr41wEe5ovG0AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpKEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+APoWCKq9AAAA[0m[Pipeline] // node
+[8mha:////4H9sdd3sdI8naJ7khocoeXA9XIXlxKLzZ45nHQQO0tW7AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRaBBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+ANwPb+C9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
